@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tribute to Ratan Tata</title>
+
+    <!-----------------------------fav-icon------------------------------------>
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-----------------------------------CSS Link------------------------------>
+ 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!---------------------------------swiper css------------------------------>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!----------------------------------lightbox css--------------------------->
+
+    <link rel="stylesheet" href="/lightbox.css">
+
+    <!-------------------------------Box icons--------------------------------->
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-------------------------------AOS Animations link----------------------->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-------------------------------Google Fonts------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!------------------------------------Header------------------------------------>
+
+    <header>
+        <ul class="navbar">
+            <li class="nav-items"><a href="#home"><img src="img/tata log.png" class="header-logo"></a></li>
+            <li class="hideOnMobile nav-items"><a href="#home">Home</a></li> 
+            <li class="hideOnMobile nav-items"><a href="#early-life">Early-Life</a></li>
+            <li class="hideOnMobile nav-items"><a href="#career-section">Caree</a>r</li>
+            <li class="hideOnMobile nav-items"><a href="#philanthrophy">Philanthropy</a></li>
+            <li class="hideOnMobile nav-items"><a href="#honours&awards">Honours&Awards</a></li>
+            <li class="hideOnMobile nav-items"><a href="#boards">Board&Affiliations</a></li>
+            <li class="nav-items"><i class='bx bxs-sun change-theme' id="theme-button" ></i></li>
+            <li class="menu-button nav-items" onclick=showSidebar()><i class='bx bx-menu box'></i></li>
+        </ul>
+        <ul class="sidebar">
+            <li class="side-items" onclick=hideSidebar()><i class='bx bx-x box'></i></li>
+            <li class="side-items"><a href="#home">Home</a></li> 
+            <li class="side-items"><a href="#early-life">Early-Life</a></li>
+            <li class="side-items"><a href="#career-section">Caree</a>r</li>
+            <li class="side-items"><a href="#philanthrophy">Philanthropy</a></li>
+            <li class="side-items"><a href="#honours&awards">Honours&Awards</a></li>
+            <li class="side-items"><a href="#boards">Board&Affiliations</a></li>
+        </ul>
+    </header>
+
+    <!----------------------------------Home-section---------------------------->
+
+    <section class="home" id="home" data-aos="zoom-in-up">
+        <div class="home-container">
+            <div class="line-column">
+                <div class="quote">
+                    <i>I don't believe in taking right decisions...I take decisions & then make them right.... 
+                    "So always believe in your ability & efforts."</i>
+                </div>
+                <h5 class="name-tag">-Ratan Tata</h5>
+            </div>
+            <div class="image-column">
+                <img src="/img/img2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="basic" data-aos="zoom-in-up">
+        <div class="basic-container">
+            <div class="details">
+                <p class="detail-paragraph">
+                    Ratan Naval Tata (born 28 December 1937) is an Indian industrialist, philanthropist and former chairman of Tata Sons. 
+                    He was a chairman of the Tata Group from 1990 to 2012, and interim chairman from October 2016 through February 2017. 
+                    He continues to head its charitable trusts. In 2008, he received the Padma Vibhushan, the second highest civilian 
+                    honour in India, after receiving the Padma Bhushan, the third highest civilian honour in 2000.
+                </p>
+                <p class="detail-paragraph">
+                    He is the son of Naval Tata, who was adopted by Ratanji Tata, son of Jamsetji Tata, the founder of the Tata Group. 
+                    He graduated from the Cornell University College of Architecture with a bachelor's degree in architecture.He joined 
+                    Tata in 1961, where he worked on the shop floor of Tata Steel. He later succeeded J. R. D. Tata as chairman of Tata 
+                    Sons upon the latter's retirement in 1991. Under his tenure the Tata Group acquired Tetley, Jaguar Land Rover, and 
+                    Corus, in an attempt to turn Tata from a largely India-centric group into a global business. Tata is also one of the 
+                    largest philanthropists in the world, having donated around 60–65% of his income to charity.
+                </p>
+                <p class="detail-paragraph">
+                    Ratan Tata is also a prolific investor and has made numerous investments in several startups. Tata has invested in over 
+                    30 start-ups to date, most in a personal capacity and some via his investment company.
+                </p>
+            </div>
+            <div class="detail-table">
+                <table>
+                    <tr>
+                        <td>Born</td>
+                        <td class="table-column-gap">
+                            <p>Ratan Naval Tata</p>
+                            <p>28 December 1937(age 86)</p>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alma Mater</td>
+                        <td class="table-column-gap">Cornell University(B.Arch)</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation</td>
+                        <td class="table-column-gap">Industrialist, Philanthropist</td>
+                    </tr>
+                    <tr>
+                        <td>Title</td>
+                        <td class="table-column-gap">Chairman Emeritus, Tata Sons And Tata Group</td>
+                    </tr>
+                    <tr>
+                        <td>Term</td>
+                        <td class="table-column-gap">
+                            <p>1991-2012</p>
+                            <p>2016-2017</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Predecessor</td>
+                        <td class="table-column-gap">J.R.D. Tata</td>
+                    </tr>
+                    <tr>
+                        <td>Successor</td>
+                        <td class="table-column-gap">
+                            <p>Cyrus Mistry(2012-2016)</p>
+                            <p>Natarajan Chandrasekaran(2017-present)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Parent</td>
+                        <td class="table-column-gap">Naval Tata</td>
+                    </tr>
+                    <tr>
+                        <td>Relatives</td>
+                        <td class="table-column-gap">Tata Family</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------------Early-Life----------------------------->
+
+    <section class="early-life-section" id="early-life" data-aos="zoom-in-up">
+        <div class="heading">Early-Life</div>
+        <div class="early-life-paragraph paragraph">
+            <p>
+                Ratan Tata was born in Bombay, now Mumbai, during the British Raj, into a Parsi Zoroastrian family, on 28 December 1937.
+                He is the son of Naval Tata, who was born in Surat and later adopted into the Tata family, and Sooni Tata, the niece of 
+                Tata group founder Jamsetji Tata. Tata's biological grandfather, Hormusji Tata, was a member of the Tata family by blood. 
+                In 1948, when Tata was 10, his parents separated, and he was subsequently raised and adopted by Navajbai Tata, his grandmother 
+                and widow of Ratanji Tata. He has a younger brother Jimmy Tata and a half-brother, Noel Tata, from Naval Tata's second 
+                marriage with Simone Tata, with whom he was raised.
+            </p>
+            <p>
+                Tata studied at the Campion School, Mumbai till the 8th class. After which, he studied at the Cathedral and John Connon School 
+                in Mumbai, the Bishop Cotton School in Shimla, and the Riverdale Country School in New York City, which he graduated from in 
+                1955. After graduating from high school, Tata enrolled in Cornell University, from which he graduated with a bachelor's degree 
+                in architecture in 1959. In 2008, Tata gifted Cornell $50 Million, becoming the largest international donor in the university's 
+                history.
+            </p>
+        </div>
+    </section>
+
+    <!--------------------------------------Career------------------------------>
+
+    <section class="career-section" id="career-section" data-aos="zoom-in-up">
+        <div class="heading">Career</div>
+        <div class="career-paragraph paragraph">
+            <p>
+                In the 1970s, Ratan Tata took on a managerial role within the Tata Group and initially found success by revitalizing National 
+                Radio and Electronics (NELCO), only to see it decline during an economic downturn. In 1991, he succeeded J.R.D. Tata as chairman 
+                of Tata Sons, where he faced resistance from subsidiary heads accustomed to significant operational freedom. To centralize control, 
+                Tata implemented policies such as a retirement age, direct reporting to the group office, and profit contributions for brand-building. 
+                He emphasized innovation and entrusted responsibilities to younger talent, streamlining operations and exiting non-core businesses to 
+                focus on globalization.
+            </p>
+            <p>
+                During his 21-year tenure, Tata Group's revenues and profits multiplied significantly, transforming from commodity sales to 
+                branded products. Major acquisitions like Tetley, Jaguar Land Rover, and Corus repositioned Tata as a global entity, with over 
+                65% of revenues coming from international operations. Tata also spearheaded the development of the Tata Nano car, making cars 
+                affordable for the average Indian consumer, and advanced India's electric vehicle initiative with the Tigor Electric Vehicles.
+            </p>
+            <p>
+                Ratan Tata retired from his executive role on 28 December 2012, leading to a leadership crisis marked by the controversial 
+                appointment and subsequent removal of Cyrus Mistry as chairman. Tata returned as interim chairman before Natarajan Chandrasekaran 
+                was appointed in February 2017. Legal battles ensued, with India's Supreme Court eventually upholding Mistry's dismissal.
+            </p>
+            <p>
+                Beyond his corporate role, Tata has invested in numerous companies using his personal wealth. His investments include Snapdeal, 
+                Teabox, CashKaro.com, Ola Cabs, Xiaomi, Nestaway, and Dogspot. Additionally, he launched Goodfellows, a companionship startup 
+                for senior citizens, promoting intergenerational friendships.
+            </p>
+        </div>
+    </section>
+
+    <!-------------------------------------Philanthrophy------------------------>
+
+    <section class="philanthrophy" id="philanthrophy" data-aos="zoom-in-up">
+        <div class="heading">Philanthropy</div>
+        <div class="philanthrophy-paragraph paragraph">
+            <p>
+                Tata Group is renowned for its extensive philanthropic efforts in education, medicine, and rural development, making significant 
+                contributions both in India and globally. One prominent example is their support for the University of New South Wales, where they 
+                aided in the development of capacitive deionization technology to provide better water solutions for challenged areas. Additionally, 
+                Tata Group's substantial $70 million donation to the University of California, San Diego (UC San Diego) led to the establishment of 
+                the Tata Institute for Genetics and Society, housed within Tata Hall. This state-of-the-art facility, opened in 2018, focuses on 
+                research in genetics and disease control, fostering collaboration and innovation among researchers.
+            </p>
+            <p>
+                In the realm of education, Tata Group has made notable endowments to prestigious institutions. At Cornell University, the Tata 
+                Education and Development Trust established a $28 million scholarship fund to support Indian undergraduate students, ensuring 
+                that financial constraints do not hinder access to top-tier education. Harvard Business School also benefited from Tata Group's 
+                generosity with a $50 million donation for the construction of Tata Hall, an executive center for mid-career education programs. 
+                Similarly, the Tata Innovation Center at Cornell Tech, named after Ratan Tata, serves as a business incubator, blending academic 
+                and industry spaces to foster entrepreneurial ventures.
+            </p>
+            <p>
+                Tata Group's commitment to technological advancement is evident in their support for Carnegie Mellon University (CMU), where a $35 
+                million donation funded TCS Hall, dedicated to research in cognitive systems and autonomous vehicles. In India, the Tata Center 
+                for Technology and Design at the Indian Institute of Technology, Bombay, was established with a ₹950 million endowment, focusing 
+                on developing engineering solutions for communities with limited resources. Furthermore, the Tata Trusts provided ₹750 million to 
+                the Indian Institute of Science for neuroscience research aimed at understanding and treating Alzheimer's disease. Internationally, 
+                the MIT Tata Center of Technology and Design was created at the Massachusetts Institute of Technology (MIT) to address challenges 
+                faced by resource-constrained communities, with an initial focus on India.
+            </p>
+        </div>
+    </section>
+
+    <!------------------------------------Honours & Awards---------------------->
+
+    <section class="honours&awards" id="honours&awards" data-aos="zoom-in-up">
+        <div class="heading">Honours & Awards</div>
+        <div class="Honour-paragraph paragraph">
+            <p>
+                Ratan Tata received the Padma Bhushan in 2000 and Padma Vibhushan in 2008, the third and second highest civilian honours awarded 
+                by the Government of India. Along with national civilian honours, Tata has also received various state civilian honours like 
+                'Maharashtra Bhushan' in 2006 for his huge work in the public administration in Maharashtra and 'Assam Baibhav' in 2021 for his 
+                exceptional contribution towards furthering cancer care in Assam.
+            </p>
+        </div>
+        <div class="honour-table">
+            <table class="honour-section-table">
+                <tr>
+                    <th class="table-heading">Year</th>
+                    <th class="table-heading">Name</th>
+                    <th class="table-heading">Awarding Organisation</th>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">2001</td>
+                    <td class="honour-table-row">Honorary Doctor of Business Administration</td>
+                    <td class="honour-table-row">Ohio State University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2004</td>
+                    <td class="honour-table-row">Medal of the Oriental Republic of Uruguay</td>
+                    <td class="honour-table-row">Government of Uruguay</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Technology</td>
+                    <td class="honour-table-row">Asian Institute of Technology.</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2005</td>
+                    <td class="honour-table-row">International Distinguished Achievement Award</td>
+                    <td class="honour-table-row">B'nai B'rith International</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Science</td>
+                    <td class="honour-table-row">University of Warwick</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2006</td>
+                    <td class="honour-table-row">Honorary Doctor of Science</td>
+                    <td class="honour-table-row">Indian Institute of Technology Madras</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Responsible Capitalism Award</td>
+                    <td class="honour-table-row">For Inspiration and Recognition of Science and Technology</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2007</td>
+                    <td class="honour-table-row">Honorary Fellowship</td>
+                    <td class="honour-table-row">The London School of Economics and Political Science</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Caregie Medal of Philanthropy</td>
+                    <td class="honour-table-row">Carnegie Endowment for International Peace</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="6">2008</td>
+                    <td class="honour-table-row">Honorary Doctor of Law</td>
+                    <td class="honour-table-row">University of Cambridge</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Science</td>
+                    <td class="honour-table-row">Indian Institute of Technology Bombay</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Science</td>
+                    <td class="honour-table-row">Indian Institute of Technology Kharagpur</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Citizen Award</td>
+                    <td class="honour-table-row">Government of Singapore</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Fellowship</td>
+                    <td class="honour-table-row">The Institution of Engineering and Technology</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Inspired Leadership Award</td>
+                    <td class="honour-table-row">The Performance Theatre</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="3">2009</td>
+                    <td class="honour-table-row">Honorary Knight Commander of the Order of the British Empire</td>
+                    <td class="honour-table-row">Queen Elizabeth II</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Life Time Contribution Award in Engineering for 2008</td>
+                    <td class="honour-table-row">Indian National Academy of Engineering</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Grand Officer of the Order of Merit of the Italian Republic</td>
+                    <td class="honour-table-row">Government of Italy</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="7">2010</td>
+                    <td class="honour-table-row">Honorary Doctor of Law</td>
+                    <td class="honour-table-row">University of Cambridge</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Hadrian Award</td>
+                    <td class="honour-table-row">World Monuments Fund</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Oslo Business for Peace award</td>
+                    <td class="honour-table-row">Business for Peace Foundation</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Legend in Leadership Award</td>
+                    <td class="honour-table-row">Yale University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Laws</td>
+                    <td class="honour-table-row">Pepperdine University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Business for Peace Award</td>
+                    <td class="honour-table-row">Business for Peace Foundation</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Business Leader of the Year</td>
+                    <td class="honour-table-row">The Asian Awards</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="4">2012</td>
+                    <td class="honour-table-row">Honorary Law</td>
+                    <td class="honour-table-row">The Royal Academy of Engineering</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Doctor of Business honoris causa, HEC Paris</td>
+                    <td class="honour-table-row">Universityof New South Wales</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Grand Cordon of the Order of the Rising Sun</td>
+                    <td class="honour-table-row">Government of Japan</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Lifetime Achievement Award</td>
+                    <td class="honour-table-row">Roackfeller Foundation</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="4">2013</td>
+                    <td class="honour-table-row">Foreign Associate</td>
+                    <td class="honour-table-row">National Academy of Engineering</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Transformational Leader of the Decade</td>
+                    <td class="honour-table-row">Indian Affairs India Leadership Conclave 2013</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Ernst and Young Entrepreneur of the Year – Lifetime Achievement</td>
+                    <td class="honour-table-row">Ernst & Young</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Business Practice</td>
+                    <td class="honour-table-row">Carnegie Mellon University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="4">2014</td>
+                    <td class="honour-table-row">Honorary Doctorate of Literature</td>
+                    <td class="honour-table-row">Singapore Management University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Sayaji Ratna Award</td>
+                    <td class="honour-table-row">Baroda Management Association</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Knight Grand Cross of the Order of the British Empire</td>
+                    <td class="honour-table-row">Queen Elizabeth II</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Honorary Doctor of Laws</td>
+                    <td class="honour-table-row">York University, Canada</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2015</td>
+                    <td class="honour-table-row">Honorary Doctor of Automotive Engineering</td>
+                    <td class="honour-table-row">Clemson University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Sayaji Ratna Award</td>
+                    <td class="honour-table-row">Baroda Management Association, HEC Paris</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">2016</td>
+                    <td class="honour-table-row">Commander of the Legion of Honour</td>
+                    <td class="honour-table-row">Government of France</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2018</td>
+                    <td class="honour-table-row">Honorary Doctorate</td>
+                    <td class="honour-table-row">Honorary Doctorate of Literature</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Swansea University</td>
+                    <td class="honour-table-row">HSNC University</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row" rowspan="2">2023</td>
+                    <td class="honour-table-row">Honorary Officer of the Order of Australia (AO)</td>
+                    <td class="honour-table-row">King Charles III</td>
+                </tr>
+                <tr>
+                    <td class="honour-table-row">Maharashtra Udyog Ratna</td>
+                    <td class="honour-table-row">Government of Maharashtra</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!----------------------------------Boards & Affiliations------------------->
+
+    <section class="boards-section" id="boards" data-aos="zoom-in-up">
+        <div class="heading">Boards & Affiliations</div>
+        <div class="boards-paragraph paragraph">
+            <p>
+                Ratan Tata, former interim chairman of Tata Sons, continues to lead the Sir Dorabji Tata and Allied Trusts and the Sir Ratan 
+                Tata Trust, which together hold a 66% stake in Tata Sons, the holding company of the Tata Group. He has served in various 
+                significant capacities both within India and internationally. Tata is a member of the Prime Minister's 'Council on Trade and 
+                Industry' and the 'National Manufacturing Competitiveness Council.' Additionally, he is part of the jury for the prestigious 
+                Pritzker Architecture Prize.
+            </p>
+            <p>
+                Tata has been involved with Cornell University, serving on its Board of Trustees and advising on international projects, 
+                especially those related to India. He has also been part of the board's Academic Affairs, Student Life, and Development 
+                Committees and was honored as Cornell Entrepreneur of the Year in 2013. Furthermore, he serves on the boards of Alcoa Inc.,
+                Mondelez International, the East-West Center, and several advisory councils and trusteeships, including the University of 
+                Southern California, Harvard Business School, X Prize, and Bocconi University.
+            </p>
+            <p>
+                He has been a member of the Harvard Business School India Advisory Board since 2006 and was previously on the Asia-Pacific 
+                Advisory Board from 2001 to 2006. Tata also holds a position on the advisory board of Hakluyt & Co, an international consultancy. 
+                In 2013, he joined the board of trustees of the Carnegie Endowment for International Peace and took an advisory role at Kalari 
+                Capital in 2015.
+            </p>
+            <p>
+                In October 2016, following the removal of Cyrus Mistry as chairman, Ratan Tata returned as interim chairman of Tata Sons for four 
+                months. Natarajan Chandrasekaran succeeded him as chairman in February 2017.
+            </p>
+        </div>
+    </section>
+
+    <!------------------------------------Gallery-section----------------------->
+
+    <section class="gallery section" data-aos="zoom-in-up">
+        <div class="slideshow">
+            <div class="container swiper">
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img1.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img1.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img3.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img3.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img4.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img4.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img 5.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img 5.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img6.jpeg" data-lightbox="models">
+                                <img id="myImg" src="/img/img6.jpeg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img7.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img7.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img8.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img8.jpg" alt=" ">
+                            </a>
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img9.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img9.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img10.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img10.jpg" alt=" ">
+                            </a>                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img11.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img11.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img12.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img12.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img13.png" data-lightbox="models">
+                                <img id="myImg" src="/img/img13.png" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img14.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img14.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img15.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img15.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                        <div class="  card-item swiper-slide">
+                            <a href="/img/img16.jpg" data-lightbox="models">
+                                <img id="myImg" src="/img/img16.jpg" alt=" ">
+                            </a>                        
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------Footer---------------------------------->
+
+    <footer>
+        <div class="footer-navbar">
+            <ul>
+                <li class="footer-items"><a href="#home">Home</a></li> 
+                <li class="footer-items"><a href="#early-life">Early-Life</a></li>
+                <li class="footer-items"><a href="#career-section">Career</a></li>
+                <li class="footer-items"><a href="#philanthrophy">Philanthropy</a></li>
+                <li class="footer-items"><a href="#honours&awards">Honours&Awards</a></li>
+                <li class="footer-items"><a href="#boards">Board&Affiliations</a></li>
+            </ul>
+        </div>
+        <div class="footer-logo">
+            <img src="/img/tata log.png">
+        </div>
+        <div class="contact-navbar">
+            <li class="contact-items"><a href="https://x.com/RNTata2000"><i class='bx bxl-twitter'></i></a></li>
+            <li class="contact-items"><a href="https://www.instagram.com/ratantata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class='bx bxl-instagram'></i></a></li>
+            <li class="contact-items"><a href="https://www.facebook.com/ratantata.aks/"><i class='bx bxl-facebook-square'></i></a></li>
+            <li class="contact-items"><a href="https://www.linkedin.com/in/ratan-tata-9754751ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BCfiiKtBS5yVL9BtJmZ6LQ%3D%3D"><i class='bx bxl-linkedin-square'></i></a></li>
+        </div>
+        <br><br><br><br>
+    </footer>
+
+    <!-----------------------------------AOS Animation Js link------------------>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 900,
+        });
+    </script>
+
+    <!------------------------------------lightbox js--------------------------->
+
+    <script src="/lightbox-plus-jquery.js"></script>
+
+    <!-----------------------------------Swiper Js------------------------------>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-----------------------------------Javascript Link------------------------>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
